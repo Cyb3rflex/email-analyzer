@@ -1,0 +1,58 @@
+From: "Global Payroll & IT Support" <helpdesk@corporate-services.example>
+Reply-To: "Security Desk" <collector-mailbox@external-gateway.example>
+To: victim.employee@corporate-services.example
+Subject: Urgent: Action Required - Mandatory Employee Account Verification
+Date: Thu, 09 Oct 2026 08:30:00 +0100
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_982341_88231.1728459000"
+
+------=_Part_982341_88231.1728459000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+URGENT NOTICE: ACTION REQUIRED IMMEDIATELY
+
+Dear Team Member,
+
+Our identity governance monitors detected multiple unauthorized access attempts originating outside our corporate VPN network. Due to compliance requirements, your workstation profile and employee access will be suspended within 24 hours unless validated.
+
+You must login immediately to verify your account and update password credentials for the new quarter. Failure to complete this before 17:00 will delay payroll routing and bank transfer processing.
+
+Please navigate to our emergency self-service verification node:
+http://192.168.1.150/portal/auth-verify
+
+Corporate Security Operations
+Corporate Services Group
+
+------=_Part_982341_88231.1728459000
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial, sans-serif; color: #222; }
+    .banner { background-color: #b30000; color: #fff; padding: 10px; font-weight: bold; }
+    .content { padding: 15px; }
+    .btn { background: #b30000; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 4px; }
+    .footer { font-size: 11px; color: #777; margin-top: 25px; }
+  </style>
+</head>
+<body>
+  <div class="banner">SECURITY ALERT: ACTION REQUIRED</div>
+  <div class="content">
+    <p>Dear Team Member,</p>
+    <p>Our identity governance monitors detected multiple unauthorized access attempts. Your access will be <strong>suspended</strong> unless verified.</p>
+    <p>You must <strong>login immediately</strong> to <strong>verify your account</strong> and <strong>update password</strong> credentials.</p>
+    <p>
+      <a class="btn" href="http://192.168.1.150/portal/auth-verify">Verify Your Account Now</a>
+    </p>
+    <p>Direct Portal URL: http://192.168.1.150/portal/auth-verify</p>
+    <div class="footer">
+      Corporate Security Operations &bull; Do not ignore this alert.
+    </div>
+  </div>
+</body>
+</html>
+------=_Part_982341_88231.1728459000--
